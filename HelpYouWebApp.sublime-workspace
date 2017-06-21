@@ -1,0 +1,556 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"main",
+				"mainCtrl"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"w3-paddi",
+				"w3-padding-16"
+			],
+			[
+				"text-decora",
+				"text-decoration-line"
+			],
+			[
+				"conta",
+				"Container"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"addre",
+				"address_components"
+			],
+			[
+				"infowin",
+				"infowindow"
+			],
+			[
+				"myLat",
+				"myLatLng"
+			],
+			[
+				"Status",
+				"statusText"
+			],
+			[
+				"navbar",
+				"navbar-brand"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"infowi",
+				"infowindow"
+			],
+			[
+				"infow",
+				"infowindow"
+			],
+			[
+				"Map",
+				"MapController"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"subm",
+				"submit_btn"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"cont",
+				"container_1"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"she",
+				"shelf2"
+			],
+			[
+				"be",
+				"beginend\t$1.begin(), $1.end()"
+			],
+			[
+				"ind",
+				"indexBlock"
+			],
+			[
+				"bl",
+				"blocks"
+			],
+			[
+				"b",
+				"break"
+			],
+			[
+				"index",
+				"indexBlock"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"cnt",
+				"cntZeros"
+			],
+			[
+				"p",
+				"push_back"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"N",
+				"n"
+			],
+			[
+				"c",
+				"c"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/GCC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GCC.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/GCC.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/GCC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GCC.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/GCC.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/nitheesh/Desktop/HelpYou WebApp"
+	],
+	"file_history":
+	[
+		"/adminPortalAppStatic_staging/modules/common/config.module.js",
+		"/adminPortalAppStatic_staging/scripts/lib.min.6631b1d7.js",
+		"/adminPortalAppStatic_staging/scripts/all.min.6ffdd746.js",
+		"/adminPortalAppStatic_staging/modules/app.js",
+		"/home/nitheesh/applications/SpiniAdminPanel/app/modules/common/config.module.js",
+		"/home/nitheesh/.local/share/Trash/files/app.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/src/public/public.routes.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/src/common/menu.service.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/src/common/common.module.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/src/public/home/home.html",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/src/public/public.html",
+		"/home/nitheesh/Desktop/website/src/sidebar.js",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture23 Shopping List with max count error proper/app.js",
+		"/home/nitheesh/Desktop/website/askforrequest.html",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture23 Shopping List with max count error proper/index.html",
+		"/home/nitheesh/Desktop/website/lib/bootstrap.min.js",
+		"/home/nitheesh/Desktop/website/css/bootstrap.min.css",
+		"/home/nitheesh/Desktop/website/lib/jquery-2.1.4.min.js",
+		"/home/nitheesh/Desktop/module5-solution/lib/angular-mocks.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/index.html",
+		"/home/nitheesh/Desktop/module5-solution/index.html",
+		"/home/nitheesh/Desktop/module5-solution/css/restaurant.css",
+		"/home/nitheesh/Desktop/app/scripts/all.min.js",
+		"/home/nitheesh/Desktop/app/scripts/lib.min.js",
+		"/home/nitheesh/applications/SpiniAdminPanel/bower.json",
+		"/home/nitheesh/applications/SpiniAdminPanel/app/modules/login/LoginController.js",
+		"/home/nitheesh/applications/SpiniAdminPanel/app/modules/admin/admin.module.js",
+		"/home/nitheesh/applications/SpiniAdminPanel/app/modules/common/api.module.js",
+		"/webapp_staging/modules/common/config.module.js",
+		"/webapp_staging/scripts/jquery.min.js",
+		"/webapp_staging/scripts/angular.min.js",
+		"/home/nitheesh/applications/SpiniAdminPanel/app/scripts/all.min.js",
+		"/home/nitheesh/applications/SpiniAdminPanel/app/scripts/lib.min.js",
+		"/home/nitheesh/applications/SpiniAdminPanel/app/index.html",
+		"/home/nitheesh/applications/SpiniAdminPanel/app/index-dev.html",
+		"/webapp_staging/scripts/lib.min.6631b1d7.js",
+		"/home/nitheesh/Desktop/module5-solution/src/public/public.module.js",
+		"/home/nitheesh/applications/SpiniAdminPanel/app/modules/common/common.module.js",
+		"/home/nitheesh/applications/SpiniAdminPanel/build/modules/common/common.module.js",
+		"/adminPortalAppStatic_staging/modules/common/common.module.js",
+		"/home/nitheesh/Desktop/module5-solution/src/common/common.module.js",
+		"/home/nitheesh/Desktop/website/css/styles.css",
+		"/home/nitheesh/Desktop/website/js/script.js",
+		"/home/nitheesh/Desktop/mapAPI/app.js",
+		"/home/nitheesh/Desktop/website/index.html",
+		"/home/nitheesh/Desktop/website/index1.html",
+		"/home/nitheesh/Desktop/website/app/styles.css",
+		"/home/nitheesh/Desktop/Coursera-WebDev-JHU-Assignments-master/module-2-solution/index.html",
+		"/home/nitheesh/Desktop/website/app/styles.cc",
+		"/home/nitheesh/Desktop/slantadmin/slantadmin/slant/app/js/app.router.crm.js",
+		"/home/nitheesh/Desktop/slantadmin/slantadmin/slant/app/index-crm.html",
+		"/home/nitheesh/Desktop/mapAPI/addmarker.html",
+		"/home/nitheesh/Desktop/remark/themeforest-11989202-remark-responsive-bootstrap-admin-template/html/index.html",
+		"/home/nitheesh/Desktop/website/Slant Admin - Angular | CRM_files/app.js",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture42/src/app.js",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture42/index.html",
+		"/home/nitheesh/Desktop/mapAPI/map.html",
+		"/home/nitheesh/Desktop/mapAPI/4maps.html",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture30/app.js",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture30/this.js",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture30/index.html",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture42/css/styles.css",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture42/lib/angular.min.js",
+		"/home/nitheesh/Desktop/map API/map.html",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/lib/ng-file-upload/bower.json",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/lib/jasmine-2.4.1/boot.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/lib/jasmine-2.4.1/jasmine.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/lib/jasmine-2.4.1/jasmine-html.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/src/public/myinfo/myinfo.controller.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module5-solution/src/restaurant.module.js",
+		"/home/nitheesh/Desktop/Hotel-Website-master (2)/js/hotels.js",
+		"/home/nitheesh/Desktop/Hotel-Website-master (2)/hotels.html",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture31/app.js",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture31/shoppingList.html",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture31/index.html",
+		"/media/nitheesh/Acer/Users/nithe/Desktop/Coursera Courses/single-page-web-apps-with-angularjs/single-page-web-apps-with-angularjs-syllabus-parsed.json",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture23/app.js",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture23/index.html",
+		"/home/nitheesh/Desktop/fullstack-course5/examples/Lecture19/prototype.js",
+		"/media/nitheesh/Local Disk/Coursera-WebDev-JHU-Assignments-master/module-4-solution/index.html",
+		"/media/nitheesh/Local Disk/Coursera-WebDev-JHU-Assignments-master/module-4-solution/SpeakGoodBye.js",
+		"/media/nitheesh/Local Disk/Coursera-WebDev-JHU-Assignments-master/module-5-solution/snippets/category-snippet.html",
+		"/media/nitheesh/Local Disk/Coursera-WebDev-JHU-Assignments-master/module-5-solution/index.html",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module1-solution/index.html",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module1-solution/app.js",
+		"/home/nitheesh/Desktop/coursera-fullstack-course5-solutions/module1-solution/styles/bootstrap.min.css",
+		"/home/nitheesh/Desktop/angular-js-samples/DynamicTextbox.html",
+		"/home/nitheesh/proto/index.html",
+		"/home/nitheesh/Desktop/angular-js-samples/ex2/conFusion/app/menu.html",
+		"/home/nitheesh/proto/data/data.js",
+		"/home/nitheesh/proto/stylesheets/preview-export-min.css",
+		"/home/nitheesh/proto/stylesheets/player-engine-export-min.css",
+		"/home/nitheesh/Desktop/angular-js-samples/ex2/conFusion/app/02_assignment-1-additional-resources_dishdetail.html",
+		"/home/nitheesh/Desktop/angular-js-samples/ex1/conFusion/app/menu.html",
+		"/home/nitheesh/Desktop/angular-js-samples/ex2/conFusion/app/styles/mystyles.css",
+		"/home/nitheesh/intern/index.html",
+		"/home/nitheesh/intern/ui/style.css",
+		"/home/nitheesh/Desktop/website/Sydney.html",
+		"/opt/lampp/htdocs/index.html",
+		"/home/nitheesh/Desktop/sydney/Sydney.html",
+		"/home/nitheesh/intern/landing.html",
+		"/home/nitheesh/intern/ecommerce.html",
+		"/home/nitheesh/intern/ui/main.js",
+		"/media/nitheesh/Local Disk/Coursera-WebDev-JHU-Assignments-master/module-2-solution/css/styles.css",
+		"/home/nitheesh/intern/server.js",
+		"/home/nitheesh/intern/ui/main1.js",
+		"/home/nitheesh/intern/ui/index.html",
+		"/home/nitheesh/intern/ui/landing.html",
+		"/media/nitheesh/Local Disk/Coursera-WebDev-JHU-Assignments-master/module-2-solution/index.html",
+		"/home/nitheesh/intern/untitled.html",
+		"/home/nitheesh/programs/rawsold.cpp",
+		"/home/nitheesh/programs/rowsold.cpp",
+		"/home/nitheesh/programs/test.r",
+		"/home/nitheesh/.config/sublime-text-3/Packages/User/GCC.sublime-build",
+		"/home/nitheesh/programs/lru.c",
+		"/home/nitheesh/programs/dishlife.cpp",
+		"/home/nitheesh/programs/unt.cpp",
+		"/home/nitheesh/programs/test.cpp",
+		"/home/nitheesh/programs/simdish.cpp",
+		"/home/nitheesh/programs/threads.cpp",
+		"/home/nitheesh/programs/knapsack.c",
+		"/home/nitheesh/programs/bs.cpp",
+		"/home/nitheesh/programs/floyd.c",
+		"/home/nitheesh/programs/treedir.c",
+		"/home/nitheesh/programs/ipc.c",
+		"/media/nitheesh/Local Disk/IV Sem/OS/Lab/Directory Structure/Tree_Structured_Directory.PDF",
+		"/home/nitheesh/programs/linked.c",
+		"/home/nitheesh/programs/indexed.c"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"/media/nitheesh/Local Disk/IV Sem/OS/Lab"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"dropdown",
+			"w3-main",
+			"overlay",
+			"overload",
+			"large",
+			"xxx",
+			"w3-xxx",
+			"w3-bar-item",
+			"w3-hover-white",
+			"w3-hover",
+			"center",
+			"w3-input",
+			"w3-sec",
+			"w3-input",
+			"w3-row",
+			"w3.section",
+			"w3",
+			"w3.",
+			"w3.row",
+			"body",
+			"collapsible",
+			"could",
+			"could not",
+			"submit",
+			"scheduling",
+			"filenode",
+			"filecount",
+			"usernode",
+			"mastername",
+			"masternode",
+			"mastercount"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fileNode",
+			"fileCount",
+			"userNode",
+			"masterName"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 256.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 104.0
+	},
+	"pinned_build_system": "",
+	"project": "HelpYouWebApp.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
