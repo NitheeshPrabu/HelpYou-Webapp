@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HelpYou</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+<body ng-app="myApp" ng-controller="myCtrl">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-red w3-animate-left w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-hover-white w3-padding-16 w3-xlarge">Close Menu</a> 
+  <br><br>
+  <a ng-show="isNormalUser" href="ask-for-request" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-hover-white w3-padding-16 w3-xlarge">Ask for Requests</a> 
+  <a href="my-profile" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-hover-white w3-padding-16 w3-xlarge">My Profile</a> 
+  <a href="my-requests" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-hover-white w3-padding-16 w3-xlarge">My Requests</a>
+  <a ng-click="logout()" class="w3-bar-item w3-button w3-center w3-hover-white w3-padding-16 w3-xlarge">Logout</a>
+</nav>
+
+<!-- Top menu -->
+<header class="w3-container w3-top w3-red w3-xxlarge w3-padding" style="z-index:999">
+  <a href="javascript:void(0)" class="w3-button w3-hover-red w3-margin-right" onclick="w3_open()"><i class="fa fa-bars"></i>&nbspMenu</a>
+  <span class="w3-right w3-padding"><a class="w3-text-white" href="{{urlToMainPage}}"><span style="margin-right:150px">{{username}}</span>HelpYou</a></span>
+</header>
+
+<!-- Overlay effect when opening sidebar-->
+<div class="w3-overlay" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<div id="main" class="w3-main" style="max-width:1600px;margin-top:83px">
+	<!-- My Profile -->
+	<div class="w3-container w3-large" id="profile" style="margin-top:75px">
+		<h1 class="w3-xxxlarge w3-text-red"><b>My Profile</b></h1>
+		<hr style="width:50px;border:5px solid red" class="w3-round">
+		<p>View and edit your profile details. Please confirm your update by entering the current password.</p>
+		<br>
+	    <form class="form-horizontal" id="myform">
+			<div class="form-group">
+			    <label for="username" class="col-md-4 control-label">User Name</label>
+			    <div class="col-md-4 inputGroupContainer">
+	    			<div class="input-group">
+			    		<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input type="text" class="form-control" id="username" placeholder="Username" name="username" ng-model="username" style="z-index:1" required>
+			    	</div>
+			    	<div class="help-block with-errors"></div>
+			    </div>
+			</div>
+			<div class="form-group">
+			    <label for="emailid" class="col-md-4 control-label">Email ID</label>
+			    <div class="col-md-4 inputGroupContainer">
+	    			<div class="input-group">
+			    		<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span><input type="text" class="form-control" id="emailid" placeholder="Email ID" name="emailid" ng-model="emailid" style="z-index:1" required>
+			    	</div>
+		    		<div class="help-block with-errors"></div>
+		    	</div>
+			</div>
+			<div class="form-group">
+			    <label for="mobileno" class="col-md-4 control-label">Contact No.</label>
+			    <div class="col-md-4 inputGroupContainer">
+	    			<div class="input-group">
+			    		<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span><input type="text" class="form-control" id="mobileno" placeholder="Mobile No." name="mobileno" ng-model="mobile" style="z-index:1" required>
+			    	</div>
+			    	<div class="help-block with-errors"></div>
+			    </div>
+			</div>
+			<div class="form-group" ng-hide="isNormalUser">
+			    <label for="categoryName" class="col-md-4 control-label">Category</label>
+			    <div class="col-md-4 inputGroupContainer">
+	    			<div class="input-group">
+			    		<div class="dropdown">
+			            	<button class="btn btn-default dropdown-toggle" type="button" id="categoryMenu" data-toggle="dropdown">{{newCategory}}&nbsp&nbsp&nbsp<span class="caret"></span></button>
+	    					<ul class="dropdown-menu" role="menu" aria-labelledby="categoryMenu" style="font-size:16px">
+	    						<li ng-repeat="category in categories"  ng-click="updateCategory(category.categoryName)">{{category.categoryName}}</li>
+	    					</ul>
+			            </div>
+			    	</div>
+		    		<div class="help-block with-errors"></div>
+		    	</div>
+			</div>
+			<div class="form-group">
+			    <label for="password" class="col-md-4 control-label">Enter Current Password</label>
+			    <div class="col-md-4 inputGroupContainer">
+	    			<div class="input-group">
+			    		<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input type="password" class="form-control" id="password" placeholder="Password" name="password" ng-model="password" style="z-index:1" required>
+			    	</div>
+			    	<div class="help-block with-errors"></div>
+			    </div>
+			</div>
+			<div class="form-group">
+			    <label for="password" class="col-md-4 control-label">Enter New Password</label>
+			    <div class="col-md-4 inputGroupContainer">
+	    			<div class="input-group">
+			    		<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input type="password" class="form-control" id="newPassword" placeholder="Password" name="new_password" ng-model="newPassword" style="z-index:1" required>
+			    	</div>
+			    	<div class="help-block with-errors"></div>
+			    </div>
+			</div>
+			<div class="form-group">
+				<label class="col-md-4 control-label"></label>
+				<div class="col-md-4">
+				    <center><input class="btn btn-primary btn-block" id="button" type="button" ng-click="verifyPassword()" value="Update"></center>
+				</div>
+			</div>
+	  	</form>
+	</div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script type = "text/javascript" src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
+    
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type = "text/javascript" src = "sidebar.js"></script>
+<script type = "text/javascript" src = "myprofile.controller.js"></script>
